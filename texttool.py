@@ -10,10 +10,6 @@ def process_line(line, operation):
         return text.upper()
     elif operation == "lower":
         return text.lower()
-    elif operation == "length":
-        return str(len(text))
-    elif operation == "count-words":
-        return str(len(text.split()))
     elif operation == "prefix":
         return text[:10]
     else:
@@ -22,7 +18,7 @@ def process_line(line, operation):
 def main():
     if len(sys.argv) < 2:
         print("Usage: python texttool.py <operation>")
-        print("Operations: upper, lower, length, count-words, prefix")
+        print("Operations: upper, lower, prefix")
         sys.exit(1)
     
     operation = sys.argv[1]
