@@ -1,0 +1,10 @@
+# Documentation et guides
+GUIDE_GIT.md
+README_FICHIERS.md
+RAPPORT_MODELE.md
+
+# Versions intermédiaires
+texttool_length.py
+texttool_count_words.py
+texttool_prefix.py
+texttool_with_docstrings.py
